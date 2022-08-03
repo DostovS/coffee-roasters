@@ -1,0 +1,306 @@
+@media only screen and (min-width: 901px) {
+  aside {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: calc(100% - 150px);
+  }
+  #hero .hero-content h1 {
+    font-size: 65px;
+  }
+  #hero .hero-content p {
+    font-size: 14px;
+  }
+  #hero .hero-content a {
+    padding: 13px 25px;
+    font-size: 15px;
+  }
+  #collection {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #collection .grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  #quality {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #quality .quality-types {
+    margin-top: -240px;
+    gap: 15px;
+  }
+  #quality .quality-types.row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #quality .quality-types .type {
+    border-radius: 5px;
+    height: 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #quality .quality-types .type img {
+    margin-bottom: 0;
+    line-height: 2;
+  }
+  #quality .quality-types .type .type-info {
+    -ms-flex-preferred-size: 70%;
+        flex-basis: 70%;
+  }
+  #quality .quality-types .type h2 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: calc(100% - 120px);
+  }
+  header nav ul li {
+    margin-right: 1.8rem;
+  }
+  #hero .hero-content h1 {
+    font-size: 60px;
+  }
+  #hero .hero-content p {
+    font-size: 14px;
+  }
+  #work {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-bottom: 44px;
+  }
+  #work .lines {
+    height: 25px;
+    margin-bottom: 48px;
+  }
+  #work .row {
+    gap: 20px;
+  }
+  #work .works-column h1 {
+    font-size: 52px;
+    margin-bottom: 43px;
+  }
+  #work .works-column h2 {
+    font-size: 30px;
+    margin-bottom: 38px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    width: calc(100% - 100px);
+  }
+  header nav {
+    display: none;
+  }
+  header .hamburger {
+    display: block;
+  }
+  #hero .container {
+    background-position: 70%;
+  }
+  #hero .hero-content {
+    margin-left: 30px;
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+  }
+  #hero .hero-content h1 {
+    font-size: 55px;
+  }
+  #collection h1 {
+    font-size: 40px;
+  }
+  #collection .grid {
+    margin: 0 3rem;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 200px;
+        grid-template-rows: 200px;
+  }
+  #collection .row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #collection .product img {
+    height: 193px;
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+    margin-bottom: 0;
+  }
+  #collection .product .product-content {
+    width: 60%;
+    text-align: left;
+  }
+  #quality .quality-content {
+    height: 420px;
+  }
+  #quality .quality-types {
+    margin-top: -220px;
+    gap: 10px;
+  }
+  #quality .quality-types .type {
+    height: 130px;
+  }
+  #quality .quality-types .type .type-info {
+    -ms-flex-preferred-size: 80%;
+        flex-basis: 80%;
+  }
+  #work {
+    margin-bottom: 79px;
+  }
+  #work .lines {
+    display: none;
+  }
+  #work .row {
+    gap: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #work h2 {
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  #work .works-column {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    text-align: center;
+    width: 80%;
+  }
+  #work .works-column h1 {
+    font-size: 42px;
+    margin-bottom: 24px;
+  }
+  #work .works-column h2 {
+    font-size: 25px;
+    margin-bottom: 24px;
+  }
+  .plan-btn {
+    margin-bottom: 120px;
+    text-align: center;
+  }
+  footer {
+    padding: 54px 0;
+  }
+  footer .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .site-logo {
+    margin-bottom: 2rem;
+  }
+  footer ul li {
+    margin-bottom: 65px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: calc(100% - 50px);
+  }
+  #hero .hero-content h1 {
+    font-size: 42px;
+  }
+  #hero .hero-content p {
+    font-size: 15px;
+  }
+  .btn {
+    padding: 12px 22px;
+  }
+  aside i {
+    font-size: 1.5rem;
+  }
+  #collection .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #collection .grid {
+    -ms-grid-rows: 300px;
+        grid-template-rows: 300px;
+    row-gap: 30px;
+  }
+  #collection .product .product-content {
+    text-align: center;
+  }
+  #quality .quality-content {
+    height: 420px;
+  }
+  #quality .quality-content p {
+    width: 90%;
+  }
+  #quality .quality-types {
+    margin-top: -180px;
+    gap: 10px;
+  }
+  #quality .quality-types .type {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 250px;
+  }
+  #quality .quality-types .type img {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+    margin-bottom: 1rem;
+  }
+  #quality .quality-types .type .type-info {
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: calc(100% - 40px);
+  }
+  #hero .hero-content {
+    margin-left: 20px;
+  }
+  #hero .hero-content h1 {
+    font-size: 35px;
+  }
+  #hero .hero-content p {
+    font-size: 15px;
+  }
+  #hero .hero-content a {
+    padding: 10px 18px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
